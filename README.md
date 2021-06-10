@@ -1,7 +1,7 @@
 # Heme auxotroph
 A brief description of several commands used for the preparation of our manuscript ["Heme auxotrophy in abundant aquatic microbial lineages"](https://www.biorxiv.org/content/10.1101/2021.01.11.426183v1.full).
 
-## Calculation of the heme biosynthetic pathway
+## Calculation of the completeness of the heme biosynthetic pathway
 
 1. KofamScan against the KofamKOALA database using a custom-built hal file (refer to this site; https://github.com/takaram/kofam_scan).
  
