@@ -1,9 +1,9 @@
 # Heme auxotroph
-A brief description of the lines used in the manuscript ["Heme auxotrophy in abundant aquatic microbial lineages"](https://www.biorxiv.org/content/10.1101/2021.01.11.426183v1.full).
+A brief description of several commands used for the preparation of our manuscript ["Heme auxotrophy in abundant aquatic microbial lineages"](https://www.biorxiv.org/content/10.1101/2021.01.11.426183v1.full).
 
 ## Calculation of the heme biosynthetic pathway
 
-1. KofamScan against the KofamKOALA database (refer to this site; https://github.com/takaram/kofam_scan).
+1. KofamScan against the KofamKOALA database using a custom-built hal file (refer to this site; https://github.com/takaram/kofam_scan).
  
 ```$ ./exec_annotation -o *.KOfam.txt *.faa -p /profiles/HemeBiosynthesis.hal -k /ko_list -f mapper```
 
@@ -11,7 +11,7 @@ A brief description of the lines used in the manuscript ["Heme auxotrophy in abu
 
 ```$ cat *.KOfam.txt > All.KOfam.txt```
 
-3. Calculate the completeness of the heme biosynthetic pathway.
+3. Calculation of the heme biosynthetic pathway completeness.
  
 ```$ python3 ./KEGG_decoder_Heme.py -i All.KOfam.txt -o All.KOfam.cal.txt -v static```
 
