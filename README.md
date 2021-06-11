@@ -1,4 +1,4 @@
-# Heme auxotroph
+# Heme auxotrophy
 A brief description of several commands used for the preparation of our manuscript ["Heme auxotrophy in abundant aquatic microbial lineages"](https://www.biorxiv.org/content/10.1101/2021.01.11.426183v1.full).
 
 ## Calculation of the completeness of the heme biosynthetic pathway
